@@ -77,7 +77,6 @@ img {
   background-color: var(--body-color);
   border-bottom: 1px solid var(--text-color);
   z-index: var(--z-fixed);
-  /* transition: background-color 0.3s, box-shadow 0.3s; */
 }
 
 .nav {
@@ -100,7 +99,7 @@ img {
   cursor: pointer;
 }
 
-/* Navigation for mobile devices */
+/* Navigation for Mobile Devices */
 @media screen and (max-width: 1023px) {
   .nav__menu {
     position: fixed;
@@ -110,8 +109,6 @@ img {
     border-bottom: 1px solid var(--text-color);
     width: 100%;
     padding-block: 4.5rem 3.5rem;
-    /* box-shadow: -2px 0 12px hsla(0, 0%, 0%, 0.2); */
-    /* transition: right 0.4s; */
   }
 }
 
@@ -260,7 +257,7 @@ img {
   color: var(--title-color);
 }
 
-/* Swiper class */
+/* Swiper Class */
 .swiper {
   margin-inline: initial;
 }
@@ -294,7 +291,7 @@ img {
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* For Small Devices */
 @media screen and (max-width: 320px) {
   .container {
     margin-inline: 1rem;
@@ -310,7 +307,7 @@ img {
   }
 }
 
-/* For medium devices */
+/* For Medium Devices */
 @media screen and (min-width: 576px) {
   .home__container {
     grid-template-columns: 400px;
@@ -318,7 +315,7 @@ img {
   }
 }
 
-/* For large devices */
+/* For Large Devices */
 @media screen and (min-width: 1023px) {
   .nav {
     height: calc(var(--header-height) + 2rem);
@@ -334,7 +331,7 @@ img {
   }
   .nav__list {
     flex-direction: row;
-    column-gap: 4rem;
+    column-gap: 3rem;
   }
   .nav__social {
     margin: 0;
@@ -394,7 +391,7 @@ img {
   }
 }
 
-/* For taller devices */
+/* For Taller Devices */
 @media screen and (min-width: 1500px) and (min-height: 1032px) {
   .home__container {
     height: 100vh;
