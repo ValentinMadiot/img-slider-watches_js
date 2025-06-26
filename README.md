@@ -3,7 +3,7 @@
     <img src=".docs/preview.png" alt="Aperçu du slider de montres">  
   </a>  
   </br></br>  
-  <h3 align="center">⌚ Image Slider de Montres</h3>  
+  <h3 align="center">⌚ Carrousel d’images de Montres</h3>  
 </div>
 
 ## <br /> 📌 Sommaire
@@ -15,42 +15,45 @@
 
 ## <br /> <a name="introduction">🎨 Introduction</a>
 
-Galerie animée de montres de luxe avec navigation créative et animations d’entrée GSAP.  
-Chaque slide affiche un produit avec son nom, son prix, une image détaillée et une description complémentaire.
+Galerie animée de montres de luxe avec navigation créative et animations d’entrée réalisées avec GSAP.
 
-Parfait pour des landing pages de produits haut de gamme ou vitrines de boutique.
+Chaque diapositive met en valeur un produit avec son nom, son prix, une image détaillée et une description complémentaire.
+
+Parfait pour des landing pages de produits haut de gamme ou des vitrines de boutique.
 
 ## <br /> <a name="technologies">🛠️ Technologies</a>
 
-- HTML5 structuré
-- CSS3 (variables, flex/grid, media queries)
-- JavaScript ES6
-- [Swiper.js](https://swiperjs.com/) (creative effect)
-- [GSAP](https://gsap.com/) pour les animations
-- Remix Icons
+- HTML5 sémantique et accessible
+- CSS3 moderne avec variables, media queries et animations
+- JavaScript ES6 clair et modulaire
+- [Swiper.js](https://swiperjs.com/) pour un carrousel fluide et personnalisable
+- [GSAP](https://gsap.com/) pour des animations d’entrée synchronisées
+- Remix Icons pour des icônes vectorielles modernes
 
 ## <br /> <a name="fonctionnalités">🎯 Fonctionnalités</a>
 
-- Effet **creative** sur les slides avec rotation et translation
+- Carrousel à effet créatif avec rotation et translation des slides
 - Animation GSAP lors du chargement des blocs
 - Menu responsive avec ouverture/fermeture mobile
 - Pagination interactive et fluide
 - Présentation soignée et responsive des produits
-- Texte explicatif et bouton d’action "en savoir plus"
+- Texte descriptif et bouton d’action « En savoir plus »
 
 ## <br /> <a name="installation">🚀 Installation</a>
 
 ### ✅ Prérequis
 
-- Navigateur moderne (Google Chrome)
-- Éditeur de code (VS Code)
+- [Google Chrome](https://www.google.com/) &nbsp;—&nbsp; Navigateur moderne
+- [Visual Studio Code](https://code.visualstudio.com/) &nbsp;—&nbsp; Éditeur de code
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) &nbsp;—&nbsp; Extension VS Code
 
 ### 📥 Cloner le projet
 
 ```bash
-git clone https://github.com/ValentinMadiot/img-slider-watches_js.git
+git clone https://github.com/ValentinMadiot/img-slider-watches_js
+cd img-slider-watches_js
 ```
 
-### ▶️ Lancer localement
+### ▶️ Lancer le projet
 
-Il suffit d’ouvrir le fichier index.html dans un navigateur, ou d’utiliser l’extension Live Server sur VS Code.
+Il suffit d’ouvrir le fichier `index.html` dans un navigateur, ou d’utiliser l’extension **Live Server** sur VS Code pour un aperçu dynamique.
